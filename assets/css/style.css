@@ -372,6 +372,7 @@ p {
 
 .caption-download-btns {
     margin-top: 50px;
+    padding-right: 10px;
 }
 
 .caption-download-btns li {
@@ -2133,9 +2134,11 @@ p {
     content: '\eab2';
     font-family: 'IcoFont';
     position: absolute;
-    right: 30px
+    left: 30px
 }
-
+.pt-10{
+    padding-top: 5rem;
+}
 .card .card-header.active a:after {
     content: '\eab9';
     font-family: 'IcoFont'
