@@ -31,6 +31,7 @@
     .rtl .navbar-nav .nav-item + .nav-item, [dir="rtl"] .navbar-nav .nav-item + .nav-item {
         margin-right: 0;
     }
+    
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .caption {
@@ -2155,5 +2156,16 @@
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         right: 10px
+    }
+}
+@media (max-width: 767px){
+    #home-area.bg-1{
+        background-size: auto;
+        
+    }
+}
+@media (min-width: 991px){
+    .about-app-mocup img{
+        max-width: 70%;
     }
 }

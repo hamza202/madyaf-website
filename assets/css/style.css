@@ -165,8 +165,8 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 .preloader {
-    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#6d85b1));
+    background: linear-gradient(to left, #2e19a7, #6d85b1);
     height: 100%;
     left: 0;
     position: fixed;
@@ -226,8 +226,8 @@ p {
     position: fixed;
     width: 100%;
     z-index: 9999;
-    background: -webkit-gradient( linear, left top, right top, from(#20007e), to(#e61eb6));
-    background: linear-gradient( 90deg, #20007e 0%, #e61eb6 100%);
+    background: -webkit-gradient( linear, left top, right top, from(#20007e), to(#6d85b1 ));
+    background: linear-gradient( 90deg, #20007e 0%, #6d85b1  100%);
     padding:  0;
     -webkit-box-shadow: 0 0 10px #111;
     box-shadow: 0 0 10px #111
@@ -269,8 +269,8 @@ p {
 .navbar-nav .nav-item.download-btn .nav-link {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#6d85b1));
+    background: linear-gradient(to left, #2e19a7, #6d85b1);
     border-radius: 25px;
     padding: 10px 34px;
     background-size: 100% auto
@@ -295,9 +295,10 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 #home-area.bg-1 {
-    background-image: url(../images/home-bg-1.png);
+    background-image: url(../images/2231401.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
+    background-size: 100%;
     margin-bottom: 10px
 }
 
@@ -308,7 +309,7 @@ p {
 }
 
 .caption {
-    padding: 177px 0 300px;
+    padding: 240px 0 200px;
 }
 
 .caption.two {
@@ -317,6 +318,7 @@ p {
 
 .caption h1 {
     font-weight: 600;
+    font-size: 47px
 }
 
 .caption-btns {
@@ -344,8 +346,8 @@ p {
     line-height: 40px;
     border-radius: 50%;
     font-size: 16px;
-    background-image: -webkit-gradient( linear, left top, right top, from(#ae0ee9), to(#2e19a7));
-    background-image: linear-gradient( 90deg, #ae0ee9 0%, #2e19a7 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#6d85b1), to(#2e19a7));
+    background-image: linear-gradient( 90deg, #6d85b1 0%, #2e19a7 100%);
     background-size: 100% auto;
     text-align: center;
     border: 1px dashed #fff;
@@ -358,8 +360,8 @@ p {
 }
 
 .caption-btns a.bg {
-    background-image: -webkit-gradient( linear, left top, right top, from(#ae0ee9), to(#2e19a7));
-    background-image: linear-gradient( 90deg, #ae0ee9 0%, #2e19a7 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#6d85b1), to(#2e19a7));
+    background-image: linear-gradient( 90deg, #6d85b1 0%, #2e19a7 100%);
     background-size: 100% auto;
     padding: 12px 30px;
     border-radius: 30px
@@ -383,8 +385,8 @@ p {
     display: block;
     width: 40px;
     height: 40px;
-    background-image: -webkit-gradient( linear, left top, right top, from(#ae0ee9), to(#2e19a7));
-    background-image: linear-gradient( 90deg, #ae0ee9 0%, #2e19a7 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#6d85b1), to(#2e19a7));
+    background-image: linear-gradient( 90deg, #6d85b1 0%, #2e19a7 100%);
     text-align: center;
     line-height: 40px;
     font-size: 20px;
@@ -594,9 +596,10 @@ p {
     color: #f03858
 }
 
+
 .load-more-btn a {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     display: inline-block;
@@ -643,7 +646,7 @@ p {
 
 .about-app-mocup {
     position: absolute;
-    top: 120px;
+    top: 240px;
     left: 110px;
 }
 
@@ -696,8 +699,8 @@ p {
     height: 65px;
     line-height: 65px;
     border-radius: 50%;
-    background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
     text-align: center;
     font-size: 30px;
     color: #fff;
@@ -991,7 +994,7 @@ p {
 }
 
 .awesome-feat-single {
-    background-image: linear-gradient( 160deg, rgb(255, 255, 255) 53%, rgb(251, 220, 244) 100%);
+    background-image: linear-gradient( 160deg, rgb(255, 255, 255) 53%, rgb(166, 183, 216) 100%);
     -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     border-radius: 22px;
@@ -1013,10 +1016,10 @@ p {
 }
 
 .awesome-feat-single .icon.two {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
-    -webkit-box-shadow: 0px 8px 10px 0px rgba(230, 30, 182, 0.4);
-    box-shadow: 0px 8px 10px 0px rgba(230, 30, 182, 0.4);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
+    -webkit-box-shadow: 0px 8px 10px 0px rgba(108, 131, 177, 0.4);
+    box-shadow: 0px 8px 10px 0px rgba(108, 131, 177, 0.4);
 }
 
 .awesome-feat-single .icon.three {
@@ -1182,8 +1185,8 @@ p {
     width: 120px;
     height: 120px;
     line-height: 120px;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
     border-radius: 50%;
     text-align: center;
     color: #fff;
@@ -1285,7 +1288,7 @@ p {
     top: 1px;
     border-radius: 30px;
     border: 0;
-    background-image: linear-gradient( 30deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient( 30deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     color: #fff;
     padding: 0 55px;
     font-weight: 600;
@@ -1364,7 +1367,7 @@ p {
     bottom: -115px;
     font-size: 30px;
     margin: 0 auto;
-    color: #f075c7
+    color: #494799
 }
 
 .screen-carousel.owl-carousel .owl-nav .owl-prev {
@@ -1439,8 +1442,8 @@ p {
     width: 160px;
     height: 50px;
     background: #ff4089;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     left: -1px;
@@ -1567,7 +1570,7 @@ p {
     text-transform: uppercase;
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    background: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background: linear-gradient( 45deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     background-size: 100% auto
 }
 
@@ -1608,8 +1611,8 @@ p {
 }
 
 .price-tbl-single .price-bg {
-    background: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
     width: 102px;
     height: 102px;
     border-radius: 50%;
@@ -1663,7 +1666,7 @@ p {
 
 .plan-btn a {
     display: inline-block;
-    background-image: linear-gradient(45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient(45deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     color: #fff;
     padding: 14px 30px;
     border-radius: 30px;
@@ -1725,8 +1728,8 @@ p {
     padding: 25px;
     -webkit-clip-path: ellipse(50% 95% at 50% 97%);
     clip-path: ellipse(50% 95% at 50% 97%);
-    background-image: -webkit-gradient( linear, left top, right top, from(#20007e), to(#e61eb6));
-    background-image: linear-gradient( 90deg, #20007e 0%, #e61eb6 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#20007e), to(#6d85b1 ));
+    background-image: linear-gradient( 90deg, #20007e 0%, #6d85b1  100%);
 }
 
 .team-social.two {
@@ -1967,8 +1970,8 @@ p {
 
 .app-downlod-review {
     padding: 120px 0 100px;
-    background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 0deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
 }
 
 .app-downlod-review.two {
@@ -1988,8 +1991,8 @@ p {
 }
 
 .download-btns a.bg {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     border: 0;
@@ -2002,8 +2005,8 @@ p {
 }
 
 .download-btns a:hover {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
 }
@@ -2014,7 +2017,7 @@ p {
 
 .download-btns a i,
 .download-btns a img {
-    padding-right: 4px;
+    padding-left: 4px;
 }
 
 .download-btns {
@@ -2104,8 +2107,8 @@ p {
 
 .card .card-header.active,
 .card .card-header:hover {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
 }
 
 .card.two .card-header.active,
@@ -2145,8 +2148,8 @@ p {
 }
 
 .card-body {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
     border-radius: 0 0 10px 10px;
     padding: 0 30px 10px 30px
 }
@@ -2221,7 +2224,7 @@ p {
     font-size: 14px;
     font-weight: 700;
     border-radius: 5px;
-    background-image: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient( 45deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     border: 0;
@@ -2268,7 +2271,8 @@ p {
 }
 
 #footer.bg-1 {
-    background-image: url(../images/footer-bg-1.png);
+    background: -webkit-gradient( linear, left top, right top, from(#20007e), to(#6d85b1 ));
+    background: linear-gradient( 90deg, #20007e 0%, #6d85b1 100%);
 }
 
 #footer.bg-2 {
@@ -2277,8 +2281,8 @@ p {
 
 .get-started {
     border-radius: 5px;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
     -webkit-box-shadow: 0px 10px 10px 0px rgba(2, 2, 2, 0.25);
     box-shadow: 0px 10px 10px 0px rgba(2, 2, 2, 0.25);
     padding: 50px 30px;
@@ -2302,8 +2306,8 @@ p {
 .get-started a {
     display: inline-block;
     float: right;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     color: #fff;
@@ -2369,7 +2373,7 @@ p {
 }
 
 .footer-copyright {
-    border-top: 1px solid #a36cbd;
+    border-top: 1px solid #697eaf;
     padding: 35px 0;
 }
 
@@ -2475,8 +2479,8 @@ p {
     text-align: center;
     line-height: 26px;
     padding: 12px 0 0;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
 }
 
 .post-media .date span {
@@ -2579,7 +2583,7 @@ p {
 }
 
 .sidebar-widget button {
-    background-image: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient( 45deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     border: 0;
@@ -2615,7 +2619,7 @@ p {
 }
 
 .sidebar-widget.tags li a:hover {
-    background-image: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient( 45deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     color: #fff
@@ -2658,8 +2662,8 @@ p {
 
 .blog-pagination li a.active,
 .blog-pagination li a:hover {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     color: #fff
@@ -2677,8 +2681,8 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 .post-cont blockquote {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(108, 131, 177)));
+    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(108, 131, 177) 100%);
     padding: 65px 70px 50px;
     margin: 70px 0 50px;
     position: relative
@@ -2835,8 +2839,8 @@ p {
     font-weight: 700;
     padding: 18px 46px;
     border-radius: 4px;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(108, 131, 177)), to(rgb(46, 25, 167)));
+    background-image: linear-gradient( 90deg, rgb(108, 131, 177) 0%, rgb(46, 25, 167) 100%);
     color: #fff;
     font-family: 'Tajawal', sans-serif;
     margin: 25px 0 0;
@@ -2909,8 +2913,8 @@ p {
     border-radius: 30px;
     font-weight: 500;
     margin: 30px 0 0;
-    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#6d85b1));
+    background: linear-gradient(to left, #2e19a7, #6d85b1);
     background-size: 100% auto
 }
 
