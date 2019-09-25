@@ -391,7 +391,7 @@
         background-position: bottom;
     }
     .app-download-mockup {
-        right: 20px;
+        left:  20px;
         bottom: 120px;
         width: 40%;
     }
@@ -541,8 +541,10 @@
         padding: 20px 30px 35px;
     }
     #navbarContent {
-        background: -webkit-gradient( linear, left top, right top, from(#20007e), to(#e61eb6));
-        background: linear-gradient( 90deg, #20007e 0%, #e61eb6 100%);
+        background: -webkit-gradient( linear, left top, right top, from(#20007e), to(#5976a6));
+        background: linear-gradient( 90deg, #20007e 0%, #5976a6  100%);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     .navbar-nav .nav-item {
         padding: 4px 0;
@@ -711,8 +713,8 @@
     }
     .app-download-mockup {
         right: 0;
-        bottom: 80px;
-        width: 75%;
+        bottom: 0;
+        width: 42%;
         left: 0;
         text-align: center;
         margin: 0 auto;
@@ -848,7 +850,7 @@
     .footer-copyright {
         text-align: center;
     }
-    .footer-social {
+   .footer-social.text-right{
         text-align: center !important;
         margin-top: 15px;
     }
@@ -1781,9 +1783,13 @@
     .app-download-bg {
         background-position: bottom;
     }
+    .download-btns a{
+        margin-bottom: 15px !important;
+        display: block
+    }
     .app-download-mockup {
         right: 0;
-        bottom: 80px;
+        bottom: 0;
         width: 90%;
         left: 0;
         text-align: center;
@@ -2167,5 +2173,10 @@
 @media (min-width: 991px){
     .about-app-mocup img{
         max-width: 70%;
+    }
+}
+@media (max-width:892px){
+    .app-download-mockup{
+        /* display: none */
     }
 }
