@@ -220,8 +220,14 @@ p {
     padding: 15px 0;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: rgba(32,0,126,0.48) ;
 }
-
+@media only screen and (max-width: 479px) and (min-width: 360px){
+    #header{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
 #header.sticky {
     position: fixed;
     width: 100%;
@@ -251,7 +257,7 @@ p {
 }
 
 .navbar-nav .nav-item {
-    padding: 0 6px;
+    padding: 0;
 }
 
 .navbar-nav .nav-link.active:after,
@@ -265,7 +271,9 @@ p {
     margin: 0 auto;
     border-bottom: 2px dotted #fff;
 }
-
+.caption.d-table{
+    text-align: left;
+}
 .navbar-nav .nav-item.download-btn .nav-link {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
@@ -302,6 +310,17 @@ p {
     margin-bottom: 10px
 }
 
+#home-area.bg-11 .caption{
+    padding: 200px 30px 87px 30px;
+}
+@media only screen and (max-width: 479px) and (min-width: 360px){
+    #home-area.bg-11{
+        background-position: center;
+    }
+    #home-area.bg-11 .caption{
+        padding: 110px 0 70px 0;
+    }
+}
 #home-area.bg-2 {
     background-image: url(../images/home-bg-2.jpg);
     background-repeat: no-repeat;
@@ -319,6 +338,11 @@ p {
 .caption h1 {
     font-weight: 600;
     font-size: 47px
+}
+@media only screen and (max-width: 479px) and (min-width: 360px){
+    .bg-11 .caption h1{
+        font-size: 29px;
+    }
 }
 
 .caption-btns {
@@ -2627,7 +2651,29 @@ p {
     position: relative;
     margin: 30px 0 0;
 }
-
+.footer-list li a{
+    color: #fff;
+    position: relative;
+    display: block;
+}
+.footer-list li a::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    width: 0;
+    transition: all ease-in-out 0.3s;
+}
+.list-inline-item:not(:last-child){
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+.footer-list li a:hover::before{
+    width: 100%;
+}
 .pagination-border {
     position: absolute;
     left: 0;
@@ -2918,6 +2964,9 @@ p {
 
 .demo-header-cont a:hover {
     background-size: 200% auto
+}
+#contact-area{
+    background-position: left top;
 }
 /*.owl-carousel .owl-item img{*/
 /*    margin-right: auto;*/
